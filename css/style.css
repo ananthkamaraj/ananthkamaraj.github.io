@@ -3170,6 +3170,7 @@ input[type=number] {
 .iknow_tm_fixed_content .infobar .extra .social ul li .svg{
 	width: 45px;
 	height: 45px;
+	    margin-top: -25px;
 }
 .iknow_tm_fixed_content .content_right{
 	width: 50%;
