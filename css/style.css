@@ -3519,7 +3519,7 @@ input[type=number] {
 	.iknow_tm_fixed_content .menubar ul li .svg{left: 14px;}
 	.iknow_tm_fixed_content .infobar .extra .short h3{font-size: 20px;margin-bottom: 3px;}
 	.iknow_tm_fixed_content .infobar .extra .short span{font-size: 14px;}
-	.iknow_tm_fixed_content .infobar .extra .social ul li .svg{width: 30px;height: 30px;margin-top: -25px !important;}
+	.iknow_tm_fixed_content .infobar .extra .social ul li .svg{width: 30px;height: 30px;}
 	.iknow_tm_fixed_content .infobar .extra .social ul li{margin-right: 4px;}
 	.iknow_tm_fixed_content .infobar .extra .short{margin-bottom: 15px;}
 	.iknow_tm_fixed_content .infobar .extra{padding: 20px 10px;}
