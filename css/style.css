@@ -10,7 +10,7 @@
 03) IKNOW IKNOW HERO 1
 04) IKNOW HERO ICONS
 05) IKNOW ABOUT
-06) IKNOW RESUME
+06) IKNOW mySkills
 07) IKNOW PORTFOLIO
 08) IKNOW SERVICES
 09) IKNOW TESTIMONIALS
@@ -1499,51 +1499,51 @@ body.dark .loader_line:after{
 }
 
 /*---------------------------------------------------*/
-/*	06) IKNOW RESUME
+/*	06) IKNOW mySkills
 /*---------------------------------------------------*/
 
-.iknow_tm_resume{
+.iknow_tm_mySkills{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.iknow_tm_resume .resume_inner{
+.iknow_tm_mySkills .mySkills_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 }
-.iknow_tm_resume .iknow_tm_main_title{
+.iknow_tm_mySkills .iknow_tm_main_title{
 	margin-bottom: 100px;
 }
-.iknow_tm_resume .left{
+.iknow_tm_mySkills .left{
 	width: 50%;
 	padding-right: 30px;
 }
-.iknow_tm_resume .info_list{
+.iknow_tm_mySkills .info_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 62px;
 }
-.iknow_tm_resume .info_list:last-child{
+.iknow_tm_mySkills .info_list:last-child{
 	margin-bottom: 0px;
 }
-.iknow_tm_resume_title{
+.iknow_tm_mySkills_title{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.iknow_tm_resume_title h3{
+.iknow_tm_mySkills_title h3{
 	font-size: 36px;
 	font-weight: 700;
 	padding-left: 40px;
 }
-.iknow_tm_resume_title .shape{
+.iknow_tm_mySkills_title .shape{
 	display: inline-block;
 	position: absolute;
 	left: 0px;
@@ -1554,7 +1554,7 @@ body.dark .loader_line:after{
 	border-radius: 100%;
 	border: 3px solid #ff451b;
 }
-.iknow_tm_resume_title .shape:before{
+.iknow_tm_mySkills_title .shape:before{
 	position: absolute;
 	content: "";
 	width: 8px;
@@ -1565,46 +1565,46 @@ body.dark .loader_line:after{
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.iknow_tm_resume .info_list ul{
+.iknow_tm_mySkills .info_list ul{
 	margin: 38px 0px 0px 0px;
 	float: left;
 	list-style-type: none;
 }
-.iknow_tm_resume .info_list ul li{
+.iknow_tm_mySkills .info_list ul li{
 	width: 100%;
 	float: left;
 	margin: 0px 0px 45px 0px;
 }
-.iknow_tm_resume .info_list ul li:last-child{
+.iknow_tm_mySkills .info_list ul li:last-child{
 	margin-bottom: 0px;
 }
-.iknow_tm_resume .info_list ul li .list_inner{
+.iknow_tm_mySkills .info_list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.iknow_tm_resume .info_list ul li .short{
+.iknow_tm_mySkills .info_list ul li .short{
 	width: 100%;
 	float: left;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.iknow_tm_resume .info_list ul li .short .job{
+.iknow_tm_mySkills .info_list ul li .short .job{
 	padding-right: 20px;
 }
-.iknow_tm_resume .info_list ul li .short .job h3{
+.iknow_tm_mySkills .info_list ul li .short .job h3{
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 8px;
 }
-.iknow_tm_resume .info_list ul li .short .job span{
+.iknow_tm_mySkills .info_list ul li .short .job span{
 	font-size: 20px;
 	color: #555;
 }
-.iknow_tm_resume .info_list ul li .short .year span{
+.iknow_tm_mySkills .info_list ul li .short .year span{
 	font-size: 20px;
 	color: #ff451b;
 	display: inline-block;
@@ -1613,26 +1613,26 @@ body.dark .loader_line:after{
 	padding: 8px 35px 7px 35px;
 	white-space: nowrap;
 }
-.iknow_tm_resume .text{
+.iknow_tm_mySkills .text{
 	width: 100%;
 	float: left;
 	margin-top: 18px;
 }
-.iknow_tm_resume .right{
+.iknow_tm_mySkills .right{
 	width: 50%;
 	padding-left: 30px;
 }
-.iknow_tm_resume .right .skills_list{
+.iknow_tm_mySkills .right .skills_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 67px;
 }
-.iknow_tm_resume .right .skills_list:last-child{
+.iknow_tm_mySkills .right .skills_list:last-child{
 	margin-bottom: 0px;
 }
-.iknow_tm_resume .right .skills_list .personal{
+.iknow_tm_mySkills .right .skills_list .personal{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1718,7 +1718,7 @@ body.dark .loader_line:after{
 @-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
-.iknow_tm_resume .right .skills_list .software{
+.iknow_tm_mySkills .right .skills_list .software{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -3228,10 +3228,10 @@ input[type=number] {
 .iknow_tm_fixed_content .iknow_tm_about .left .image .main{display: none;}
 .iknow_tm_fixed_content .iknow_tm_about .left .left_inner{display: block;}
 .iknow_tm_fixed_content .iknow_tm_about .left .details{left: 0px;}
-.iknow_tm_fixed_content .iknow_tm_resume .resume_inner{flex-direction: column;}
-.iknow_tm_fixed_content .iknow_tm_resume .left{width: 100%;padding-right: 0px;}
-.iknow_tm_fixed_content .iknow_tm_resume .right{width: 100%;padding-left: 0px;margin-top: 55px;}
-.iknow_tm_fixed_content .iknow_tm_resume .iknow_tm_main_title{margin-bottom: 50px;}
+.iknow_tm_fixed_content .iknow_tm_mySkills .mySkills_inner{flex-direction: column;}
+.iknow_tm_fixed_content .iknow_tm_mySkills .left{width: 100%;padding-right: 0px;}
+.iknow_tm_fixed_content .iknow_tm_mySkills .right{width: 100%;padding-left: 0px;margin-top: 55px;}
+.iknow_tm_fixed_content .iknow_tm_mySkills .iknow_tm_main_title{margin-bottom: 50px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul{margin-left: -24px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 24px;margin-bottom: 24px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_filter{text-align: left;}
@@ -3525,10 +3525,10 @@ input[type=number] {
 	.iknow_tm_fixed_content .infobar .extra{padding: 20px 10px;}
 	.iknow_tm_fixed_content .mainbar{padding: 55px;}
 	.iknow_tm_fixed_content .iknow_tm_main_title h3{font-size: 31px;}
-	.iknow_tm_fixed_content .iknow_tm_resume_title h3{font-size: 30px;}
-	.iknow_tm_resume .info_list ul li .short .year span{font-size: 15px;padding: 5px 25px 4px 25px;}
-	.iknow_tm_resume .info_list ul li .short .job h3{font-size: 19px;margin-bottom: 3px;}
-	.iknow_tm_resume .info_list ul li .short .job span{font-size: 16px;}
+	.iknow_tm_fixed_content .iknow_tm_mySkills_title h3{font-size: 30px;}
+	.iknow_tm_mySkills .info_list ul li .short .year span{font-size: 15px;padding: 5px 25px 4px 25px;}
+	.iknow_tm_mySkills .info_list ul li .short .job h3{font-size: 19px;margin-bottom: 3px;}
+	.iknow_tm_mySkills .info_list ul li .short .job span{font-size: 16px;}
 	.circular_progress_bar .list_inner:after{width: 155px;height: 155px;}
 	.circular_progress_bar .number{font-size: 20px;}
 	.circular_progress_bar .title{max-width: 120px;}
@@ -3724,10 +3724,10 @@ input[type=number] {
 	.iknow_tm_about .left .image .main{display: none;}
 	.iknow_tm_about .left .left_inner{display: block;}
 	.iknow_tm_about .left .details{left: 0px;}
-	.iknow_tm_resume .iknow_tm_main_title{margin-bottom: 65px;}
-	.iknow_tm_resume .resume_inner{flex-direction: column;}
-	.iknow_tm_resume .left{width: 100%;padding-right: 0px;}
-	.iknow_tm_resume .right{width: 100%;padding-left: 0px;margin-top: 55px;}
+	.iknow_tm_mySkills .iknow_tm_main_title{margin-bottom: 65px;}
+	.iknow_tm_mySkills .mySkills_inner{flex-direction: column;}
+	.iknow_tm_mySkills .left{width: 100%;padding-right: 0px;}
+	.iknow_tm_mySkills .right{width: 100%;padding-left: 0px;margin-top: 55px;}
 	.iknow_tm_portfolio .portfolio_list ul li{width: 50%;}
 	.iknow_tm_portfolio .portfolio_filter{text-align: left;}
 	.iknow_tm_services .service_list ul li{width: 50%;}
@@ -3773,14 +3773,14 @@ input[type=number] {
 	.circular_progress_bar .number{font-size: 20px;}
 	.circular_progress_bar .title{max-width: 120px;}
 	.circular_progress_bar .title h3{font-size: 19px;}
-	.iknow_tm_resume_title h3{font-size: 25px;}
-	.iknow_tm_resume_title .shape{width: 21px;height: 21px;}
-	.iknow_tm_resume_title .shape:before{width: 4px;height: 4px;}
-	.iknow_tm_resume_title h3{padding-left: 33px;}
-	.iknow_tm_resume .info_list ul li .short .job h3{font-size: 20px;}
-	.iknow_tm_resume .info_list ul li .short .job span{font-size: 18px;}
-	.iknow_tm_resume .info_list ul li .short .job h3{margin-bottom: 4px;}
-	.iknow_tm_resume .info_list ul li .short .year span{font-size: 18px;padding: 5px 30px 4px 30px;}
+	.iknow_tm_mySkills_title h3{font-size: 25px;}
+	.iknow_tm_mySkills_title .shape{width: 21px;height: 21px;}
+	.iknow_tm_mySkills_title .shape:before{width: 4px;height: 4px;}
+	.iknow_tm_mySkills_title h3{padding-left: 33px;}
+	.iknow_tm_mySkills .info_list ul li .short .job h3{font-size: 20px;}
+	.iknow_tm_mySkills .info_list ul li .short .job span{font-size: 18px;}
+	.iknow_tm_mySkills .info_list ul li .short .job h3{margin-bottom: 4px;}
+	.iknow_tm_mySkills .info_list ul li .short .year span{font-size: 18px;padding: 5px 30px 4px 30px;}
 	.progress_inner span.label{font-size: 19px;}
 	.progress_inner{margin-bottom: 20px;}
 	.progress_inner > span{margin-bottom: 15px;}
@@ -3827,8 +3827,8 @@ input[type=number] {
 }
 @media (max-width: 480px){
 	.iknow_tm_modalbox .box_inner{width: 300px;}
-	.iknow_tm_resume .info_list ul li .short{flex-direction: column;align-items: baseline;}
-	.iknow_tm_resume .info_list ul li .short .job{width: 100%;padding-right: 0px;margin-bottom: 15px;}
+	.iknow_tm_mySkills .info_list ul li .short{flex-direction: column;align-items: baseline;}
+	.iknow_tm_mySkills .info_list ul li .short .job{width: 100%;padding-right: 0px;margin-bottom: 15px;}
 	.iknow_tm_testimonials .testimonials_list .details .right{display: none;}
 	.iknow_tm_testimonials .testimonials_list .text p{font-size: 16px;}
 	.iknow_tm_testimonials .testimonials_list .details .avatar{width: 50px;height: 50px;}
